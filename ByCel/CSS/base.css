@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lexend+Deca:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+html {
+    font-size: 16px;
+    width: 100%;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3aa5b8;
+}
+
+a {
+    text-decoration: none;
+}
+
+#burger {
+    display: none;
+}
+
+input#check {
+    display: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    column-gap: 5px;
+}
+
+section#menu-principal>header {
+    display: flex;
+    align-items: center;
+}
+
+span#marca {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 2rem;
+    text-shadow: black 3px 2px;
+    margin-left: 15px;
+    white-space: nowrap;
+}
+
+section#menu-principal {
+    background-color: #ca2d22;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    justify-content: space-between;
+    
+}
+
+.nav-repet {
+    display: flex;
+    white-space: nowrap;
+}
+
+a.card {
+    background-color: #13788a;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+    text-decoration: none;
+    padding: 6px;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 7px;
+    box-shadow: #380c0c7c 2px 3px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+nav#nav-migalha {
+    background-color: black;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #13788a;
+}
+
+.item-migalha {
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #13788a;
+}
+
+img.banner {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+section.secao-main {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.grid-artic {
+    display: inline-grid;
+    grid-template-columns: 30rem;
+    grid-template-rows: 13vw;
+    justify-items: center;
+    padding: 30px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    padding: 30px 0px;
+    background-color: #ca2d22;
+    margin-top: 100px;
+    height: 250px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #ffffff;
+    text-shadow: black 2px 3px;
+}
+
+footer section div nav ul {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+
+}
+
+#banner-makita {
+    width: 70%;
+    margin: auto;
+} 
+
+span.titulo {
+    width: 100%;
+    margin: auto;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 2rem;
+}
+
+main{
+    margin-top: 50px;
+}
+
+.icons-footer {
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: auto;
+    margin-top: 50px;
+    row-gap: 30px;
+    max-width: 500px;
+    justify-content: center;
+}
+
+span.titulo-contato {
+    display: flex;
+    margin: auto;
+    width: 50vw;
+    font-size: 4rem;
+    white-space: nowrap;
+    justify-content: center;
+    color: #ca2d22;
+    text-shadow: 2px 2px rgb(7, 7, 7);
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+input {
+    height: 50px;
+    padding: 10px;
+    border: 3px solid rgba(5, 100, 84, 0.467);
+    background-color:#ffffff ;
+    border-radius: 7px;
+}
+
+textarea {
+    height: 90px;
+    border: 3px solid rgba(5, 100, 84, 0.467);
+    border-radius: 7px;
+}
+
+#mens-usuario {
+    margin-top: 50px;
+}
+
+#botao {
+    width: 150px;
+    margin: auto;
+    background-color: #13788a;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+    text-decoration: none;
+    padding: 6px;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 7px;
+    box-shadow: #380c0c7c 2px 3px;
+    font-family: 'Lexend Deca', sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+div.parag-quem-somos {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    text-indent: 30px;
+    text-align: center;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 720px) {
+    #menu-principal {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .nav-repet {
+        display: block;
+        width: 245px;
+        height: 310px;
+        margin-top: 50px;
+        white-space: wrap;
+        padding: 0;
+        
+    }
+
+    ul#ulMenu {
+        display: none;
+    }
+
+    ul#ulMenu li {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    a.card {
+        width: 230px;
+    }
+
+    #burger {
+        display: block;
+        font-size: 50px;
+        padding-left: 120px;
+        cursor: pointer;
+    }
+
+    img#logo {
+        width: 80px;
+        padding-left: 30px;
+    }
+
+    span#marca {
+        font-size: 3rem;
+    }
+
+    section.secao-main {
+        display: block;
+        padding-left: 90px;
+        
+    }
+
+    footer section div nav ul {
+        column-gap: 50px;
+    }
+
+    nav#nav-migalha {
+        display: none;
+    }
+
+    #banner-makita {
+        width: 100%;
+        
+    }
+
+    #spanTitulo {
+        width: 90vw;
+        
+        font-size: 2rem;
+    }
+
+    .paragrafos {
+        font-size: 1rem;
+        max-width: 90%;
+    }
+
+    img.img-catalogo {
+        width: 150px;
+
+    }
+
+    div#paragrafos {
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+
+    main#grid-container {
+        width: 100vw;
+        
+        column-gap: 0;
+        
+    }
+
+    article.box-item {
+        width: 210px;
+
+    }
+
+    #box-item {
+        margin: 0;
+    }
+
+    h2#titulo-item {
+        font-size: 2rem;
+        flex-wrap: nowrap;
+        margin-left: 0;
+    }
+
+    h2 {
+        text-align:justify;
+    }
+
+    #art-assistencia {
+        display: block;
+        
+    }
+
+    #img-assistencia {
+        width: 50vw;
+    }
+
+    #parag-assistencia {
+        font-size: 1rem;
+        margin-left: 30px;
+    }
+
+    #parag-quem-somos {
+        font-size: 1.5rem;
+    }
+
+
+}
